@@ -11,6 +11,27 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="main.css" />
+    <style>
+      .project-card {
+        cursor: pointer;
+        transition: transform 0.3s;
+      }
+      .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      }
+      .modal-image {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-bottom: 15px;
+      }
+      .tech-badge {
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
+    </style>
   </head>
   <body>
     <!-- Header -->
@@ -41,10 +62,18 @@
       <section class="container p-5">
         <h2 class="mb-5 text-center">Creaciones y Logros</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <!-- Proyecto 1 -->
           <article class="col">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark card h-100"
+            <div
+              class="text-decoration-none text-dark card h-100 project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#projectModal"
+              data-project-title="Guantelete de Fuerza Mejorada"
+              data-project-description="Un guantelete que amplifica la fuerza del usuario, permitiéndole levantar objetos pesados con facilidad. Desarrollado con materiales de alta resistencia y tecnología de amplificación de fuerza."
+              data-project-image="https://picsum.photos/300/300"
+              data-project-tech="Electrónica, Arduino, Impresión 3D"
+              data-project-date="Enero 2024"
+              data-project-status="Completado"
             >
               <img
                 src="https://picsum.photos/300/300"
@@ -58,113 +87,147 @@
                   permitiéndole levantar objetos pesados con facilidad.
                 </p>
               </div>
-            </a>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 -->
+          <article class="col">
+            <div
+              class="text-decoration-none text-dark card h-100 project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#projectModal"
+              data-project-title="Sistema de Seguridad Inteligente"
+              data-project-description="Sistema de seguridad para el hogar con reconocimiento facial, sensores de movimiento y notificaciones en tiempo real. Incluye una aplicación móvil para monitoreo remoto."
+              data-project-image="https://picsum.photos/300/300"
+              data-project-tech="Python, OpenCV, IoT, Raspberry Pi"
+              data-project-date="Marzo 2024"
+              data-project-status="En desarrollo"
+            >
+              <img
+                src="https://picsum.photos/300/300"
+                class="card-img-top"
+                alt="Sistema de seguridad inteligente"
+              />
+              <div class="p-3">
+                <h3 class="fs-4">Sistema de Seguridad Inteligente</h3>
+                <p>
+                  Sistema de seguridad con reconocimiento facial y notificaciones en tiempo real para protección del hogar.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 -->
+          <article class="col">
+            <div
+              class="text-decoration-none text-dark card h-100 project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#projectModal"
+              data-project-title="Brazo Robótico Controlado por Voz"
+              data-project-description="Brazo robótico de 6 grados de libertad controlado mediante comandos de voz. Capaz de manipular objetos delicados y realizar tareas repetitivas con precisión."
+              data-project-image="https://picsum.photos/300/300"
+              data-project-tech="Python, Arduino, Reconocimiento de Voz, Servomotores"
+              data-project-date="Febrero 2024"
+              data-project-status="Completado"
+            >
+              <img
+                src="https://picsum.photos/300/300"
+                class="card-img-top"
+                alt="Brazo robótico controlado por voz"
+              />
+              <div class="p-3">
+                <h3 class="fs-4">Brazo Robótico Controlado por Voz</h3>
+                <p>
+                  Brazo robótico controlado mediante comandos de voz para manipulación precisa de objetos.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Más proyectos (puedes agregar datos específicos para cada uno) -->
+          <article class="col">
+            <div
+              class="text-decoration-none text-dark card h-100 project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#projectModal"
+              data-project-title="Proyecto 4"
+              data-project-description="Descripción detallada del proyecto 4."
+              data-project-image="https://picsum.photos/300/300"
+              data-project-tech="Tecnologías utilizadas"
+              data-project-date="Fecha"
+              data-project-status="Estado"
+            >
+              <img
+                src="https://picsum.photos/300/300"
+                class="card-img-top"
+                alt="Proyecto 4"
+              />
+              <div class="p-3">
+                <h3 class="fs-4">Proyecto 4</h3>
+                <p>
+                  Descripción breve del proyecto 4.
+                </p>
+              </div>
+            </div>
           </article>
 
           <article class="col">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark card h-100"
+            <div
+              class="text-decoration-none text-dark card h-100 project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#projectModal"
+              data-project-title="Proyecto 5"
+              data-project-description="Descripción detallada del proyecto 5."
+              data-project-image="https://picsum.photos/300/300"
+              data-project-tech="Tecnologías utilizadas"
+              data-project-date="Fecha"
+              data-project-status="Estado"
             >
               <img
                 src="https://picsum.photos/300/300"
                 class="card-img-top"
-                alt="Guantelete de fuerza mejorada"
+                alt="Proyecto 5"
               />
               <div class="p-3">
-                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
+                <h3 class="fs-4">Proyecto 5</h3>
                 <p>
-                  Un guantelete que amplifica la fuerza del usuario,
-                  permitiéndole levantar objetos pesados con facilidad.
+                  Descripción breve del proyecto 5.
                 </p>
               </div>
-            </a>
+            </div>
           </article>
 
           <article class="col">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark card h-100"
+            <div
+              class="text-decoration-none text-dark card h-100 project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#projectModal"
+              data-project-title="Proyecto 6"
+              data-project-description="Descripción detallada del proyecto 6."
+              data-project-image="https://picsum.photos/300/300"
+              data-project-tech="Tecnologías utilizadas"
+              data-project-date="Fecha"
+              data-project-status="Estado"
             >
               <img
                 src="https://picsum.photos/300/300"
                 class="card-img-top"
-                alt="Guantelete de fuerza mejorada"
+                alt="Proyecto 6"
               />
               <div class="p-3">
-                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
+                <h3 class="fs-4">Proyecto 6</h3>
                 <p>
-                  Un guantelete que amplifica la fuerza del usuario,
-                  permitiéndole levantar objetos pesados con facilidad.
+                  Descripción breve del proyecto 6.
                 </p>
               </div>
-            </a>
-          </article>
-          <article class="col">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark card h-100"
-            >
-              <img
-                src="https://picsum.photos/300/300"
-                class="card-img-top"
-                alt="Guantelete de fuerza mejorada"
-              />
-              <div class="p-3">
-                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
-                <p>
-                  Un guantelete que amplifica la fuerza del usuario,
-                  permitiéndole levantar objetos pesados con facilidad.
-                </p>
-              </div>
-            </a>
-          </article>
-
-          <article class="col">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark card h-100"
-            >
-              <img
-                src="https://picsum.photos/300/300"
-                class="card-img-top"
-                alt="Guantelete de fuerza mejorada"
-              />
-              <div class="p-3">
-                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
-                <p>
-                  Un guantelete que amplifica la fuerza del usuario,
-                  permitiéndole levantar objetos pesados con facilidad.
-                </p>
-              </div>
-            </a>
-          </article>
-
-          <article class="col">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark card h-100"
-            >
-              <img
-                src="https://picsum.photos/300/300"
-                class="card-img-top"
-                alt="Guantelete de fuerza mejorada"
-              />
-              <div class="p-3">
-                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
-                <p>
-                  Un guantelete que amplifica la fuerza del usuario,
-                  permitiéndole levantar objetos pesados con facilidad.
-                </p>
-              </div>
-            </a>
+            </div>
           </article>
         </div>
       </section>
 
       <!-- Proyectos futuros -->
       <section class="container text-center p-5">
-        <h2 class="mb-5">Mis habilidades</h2>
+        <h2 class="mb-5">Proyectos por venir</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
           <div class="col">
             <img
@@ -193,10 +256,67 @@
             <h3>Electrónica</h3>
             <p>Electrónica y robótica</p>
           </div>
+          <div class="col">
+            <img
+              src="https://picsum.photos/200/200"
+              alt="Electrónica"
+              class="img-fluid mb-3"
+            />
+            <h3>Electrónica</h3>
+            <p>Electrónica y robótica</p>
+          </div>
+          <div class="col">
+            <img
+              src="https://picsum.photos/200/200"
+              alt="Electrónica"
+              class="img-fluid mb-3"
+            />
+            <h3>Electrónica</h3>
+            <p>Electrónica y robótica</p>
+          </div>
         </div>
       </section>
 
-      
+      <!-- Modal para detalles del proyecto -->
+      <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel">Detalles del Proyecto</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img id="modalProjectImage" src="" class="modal-image" alt="Imagen del proyecto">
+              <h3 id="modalProjectTitle" class="mb-3"></h3>
+              
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <p><strong>Fecha:</strong> <span id="modalProjectDate"></span></p>
+                </div>
+                <div class="col-md-6">
+                  <p><strong>Estado:</strong> <span id="modalProjectStatus" class="badge bg-success"></span></p>
+                </div>
+              </div>
+              
+              <h5>Descripción</h5>
+              <p id="modalProjectDescription" class="mb-4"></p>
+              
+              <h5>Tecnologías utilizadas</h5>
+              <div id="modalProjectTech" class="mb-4"></div>
+              
+              <h5>Características principales</h5>
+              <ul id="modalProjectFeatures" class="mb-0">
+                <!-- Las características se agregarán mediante JavaScript -->
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Ver más detalles</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!-- Footer -->
     <footer class="footer text-center p-4 bg-light mt-5">
@@ -230,5 +350,86 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    
+    <script>
+      // Script para manejar la visualización de detalles del proyecto en el modal
+      document.addEventListener('DOMContentLoaded', function() {
+        const projectModal = document.getElementById('projectModal');
+        
+        projectModal.addEventListener('show.bs.modal', function(event) {
+          const card = event.relatedTarget;
+          
+          // Obtener los datos del proyecto desde los atributos data
+          const title = card.getAttribute('data-project-title');
+          const description = card.getAttribute('data-project-description');
+          const image = card.getAttribute('data-project-image');
+          const tech = card.getAttribute('data-project-tech');
+          const date = card.getAttribute('data-project-date');
+          const status = card.getAttribute('data-project-status');
+          
+          // Actualizar el contenido del modal
+          document.getElementById('modalProjectTitle').textContent = title;
+          document.getElementById('modalProjectDescription').textContent = description;
+          document.getElementById('modalProjectImage').src = image;
+          document.getElementById('modalProjectDate').textContent = date;
+          document.getElementById('modalProjectStatus').textContent = status;
+          
+          // Actualizar tecnologías (convertir en badges)
+          const techContainer = document.getElementById('modalProjectTech');
+          techContainer.innerHTML = '';
+          tech.split(', ').forEach(technology => {
+            const badge = document.createElement('span');
+            badge.classList.add('badge', 'bg-primary', 'tech-badge');
+            badge.textContent = technology;
+            techContainer.appendChild(badge);
+          });
+          
+          // Generar características basadas en el título (esto es un ejemplo)
+          const featuresList = document.getElementById('modalProjectFeatures');
+          featuresList.innerHTML = '';
+          
+          // Características genéricas basadas en el tipo de proyecto
+          let features = [];
+          
+          if (title.toLowerCase().includes('guantelete')) {
+            features = [
+              'Amplificación de fuerza hasta 10x',
+              'Materiales ultraligeros y resistentes',
+              'Sistema de retroalimentación háptica',
+              'Batería de larga duración (8+ horas)'
+            ];
+          } else if (title.toLowerCase().includes('seguridad')) {
+            features = [
+              'Reconocimiento facial con 99.7% de precisión',
+              'Notificaciones en tiempo real',
+              'Modo nocturno con visión infrarroja',
+              'Almacenamiento en la nube cifrado'
+            ];
+          } else if (title.toLowerCase().includes('robótico')) {
+            features = [
+              '6 grados de libertad',
+              'Precisión de 0.1mm',
+              'Control por voz y aplicación móvil',
+              'Capacidad de carga de 2kg'
+            ];
+          } else {
+            // Características genéricas para otros proyectos
+            features = [
+              'Diseño innovador y funcional',
+              'Tecnología de vanguardia',
+              'Interfaz intuitiva y fácil de usar',
+              'Bajo consumo energético'
+            ];
+          }
+          
+          // Agregar características a la lista
+          features.forEach(feature => {
+            const li = document.createElement('li');
+            li.textContent = feature;
+            featuresList.appendChild(li);
+          });
+        });
+      });
+    </script>
   </body>
 </html>
