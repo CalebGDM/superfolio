@@ -10,10 +10,15 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <!-- Header -->
     <header>
-      <nav class="navbar justify-content-center p-4" aria-label="Navegación principal">
+      <nav
+        class="navbar justify-content-center p-4"
+        aria-label="Navegación principal"
+      >
         <ul class="nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link text-secondary" href="#">Inicio</a>
@@ -34,14 +39,15 @@
     <main>
       <!-- Inicio -->
       <section class="cal-sans-regular">
-        <div class="container mb-5">
-          <div class="row">
-            <div class="col">
-              <h1 class="text-uppercase fw-bold mb-3" style="font-size: 4.3em">
+        <div class="container mb-5 mt-5">
+          <div class="row align-items-center">
+            <!-- Texto -->
+            <div class="col-md-6 mt-5 mb-5">
+              <h1 class="text-uppercase fw-bold mb-3" style="font-size: 2.5rem">
                 Construyendo a los héroes del mañana,
                 <span class="text-primary">un invento a la vez</span>
               </h1>
-              <p class="mb-4">
+              <p class="mb-5 mt-5">
                 Soy "El técnico" (o por mi identidad secreta Caleb García). De
                 día, soy un estudiante universitario común. En la noche (o en mi
                 tiempo libre), convierto la tecnología de superhéroes en
@@ -49,20 +55,26 @@
                 pasión por los inventos y la innovación heroica.
               </p>
 
-              <div class="d-flex gap-3">
+              <div class="d-flex flex-column flex-sm-row gap-3">
                 <a href="projects.html" class="btn btn-warning flex-fill">
                   Ver mis proyectos
                 </a>
-                <a href="diary.html" class="btn btn-outline-secondary flex-fill">
+                <a
+                  href="diary.html"
+                  class="btn btn-outline-secondary flex-fill"
+                >
                   Lee mi diario de desarrollo
                 </a>
               </div>
             </div>
 
-            <div class="col d-flex justify-content-center m-3 m-md-5">
-              <img src="https://picsum.photos/300/300"
-                   alt="Invento de superhéroe"
-                   class="img-fluid rounded" />
+            <!-- Imagen -->
+            <div class="col-md-6 d-flex justify-content-center mt-4 mt-md-0">
+              <img
+                src="https://picsum.photos/500/500"
+                alt="Invento de superhéroe"
+                class="img-fluid rounded hero-img"
+              />
             </div>
           </div>
         </div>
@@ -70,104 +82,142 @@
 
       <!-- Últimos inventos -->
       <section class="container p-5">
-        <h2 class="mb-5 mt-5 text-center">Últimos inventos</h2>
-        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+        <h2 class="mb-5 text-center">Últimos inventos</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <article class="col">
-            <a href="projects.html#force-glove" class="text-decoration-none text-dark card h-100  ">
-              <img src="https://picsum.photos/300/300"
-                   class="card-img-top"
-                   alt="Guantelete de fuerza mejorada" />
+            <a
+              href="projects.html#force-glove"
+              class="text-decoration-none text-dark card h-100"
+            >
+              <img
+                src="https://picsum.photos/300/300"
+                class="card-img-top"
+                alt="Guantelete de fuerza mejorada"
+              />
               <div class="p-3">
                 <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
                 <p>
-                  Un guantelete que amplifica la fuerza del usuario, permitiéndole
-                  levantar objetos pesados con facilidad.
+                  Un guantelete que amplifica la fuerza del usuario,
+                  permitiéndole levantar objetos pesados con facilidad.
                 </p>
               </div>
             </a>
           </article>
 
           <article class="col">
-            <a href="projects.html#force-glove" class="text-decoration-none text-dark card h-100  ">
-              <img src="https://picsum.photos/300/300"
-                   class="card-img-top"
-                   alt="Guantelete de fuerza mejorada" />
+            <a
+              href="projects.html#force-glove"
+              class="text-decoration-none text-dark card h-100"
+            >
+              <img
+                src="https://picsum.photos/300/300"
+                class="card-img-top"
+                alt="Guantelete de fuerza mejorada"
+              />
               <div class="p-3">
                 <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
                 <p>
-                  Un guantelete que amplifica la fuerza del usuario, permitiéndole
-                  levantar objetos pesados con facilidad.
+                  Un guantelete que amplifica la fuerza del usuario,
+                  permitiéndole levantar objetos pesados con facilidad.
                 </p>
               </div>
             </a>
           </article>
-          <article class="col">
-            <a href="projects.html#force-glove" class="text-decoration-none text-dark card h-100  ">
-              <img src="https://picsum.photos/300/300"
-                   class="card-img-top"
-                   alt="Guantelete de fuerza mejorada" />
-              <div class="p-3">
-                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
-                <p>
-                  Un guantelete que amplifica la fuerza del usuario, permitiéndole
-                  levantar objetos pesados con facilidad.
-                </p>
-              </div>
-            </a>
-          </article>
-          
 
-          
-          
+          <article class="col">
+            <a
+              href="projects.html#force-glove"
+              class="text-decoration-none text-dark card h-100"
+            >
+              <img
+                src="https://picsum.photos/300/300"
+                class="card-img-top"
+                alt="Guantelete de fuerza mejorada"
+              />
+              <div class="p-3">
+                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
+                <p>
+                  Un guantelete que amplifica la fuerza del usuario,
+                  permitiéndole levantar objetos pesados con facilidad.
+                </p>
+              </div>
+            </a>
+          </article>
         </div>
       </section>
 
       <!-- Habilidades -->
       <section class="container text-center p-5">
-        <h2 class="mb-5 mt-5">Mis habilidades</h2>
-        <ul class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-5 list-unstyled mt-5">
-          <li class="col">
-            <img src="path/to/your/image.jpg" alt="Programación" class="img-fluid mb-3">
+        <h2 class="mb-5">Mis habilidades</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+          <div class="col">
+            <img
+              src="https://picsum.photos/200/200"
+              alt="Programación"
+              class="img-fluid mb-3"
+            />
             <h3>Programación</h3>
             <p>Python y JavaScript</p>
-          </li>
-          <li class="col">
-            <img src="path/to/your/image.jpg" alt="Diseño 3D" class="img-fluid mb-3">
+          </div>
+          <div class="col">
+            <img
+              src="https://picsum.photos/200/200"
+              alt="Diseño 3D"
+              class="img-fluid mb-3"
+            />
             <h3>Diseño 3D</h3>
             <p>Diseño y modelado en 3D</p>
-          </li>
-          <li class="col">
-            <img src="path/to/your/image.jpg" alt="Electrónica" class="img-fluid mb-3">
+          </div>
+          <div class="col">
+            <img
+              src="https://picsum.photos/200/200"
+              alt="Electrónica"
+              class="img-fluid mb-3"
+            />
             <h3>Electrónica</h3>
             <p>Electrónica y robótica</p>
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
 
       <!-- Diario -->
-      <section class="container text-center p-5">
-        <h2>Lo último de mi diario</h2>
-        <article class="card p-4 mt-5 text-start row row-cols-1 row-cols-md-2 g-4">
-          <div class="col">
-            <h4 class="fs-6 text-warning text-uppercase">Reflexiones sobre el proceso creativo</h4>
+      <section class="container p-5">
+        <h2 class="text-center mb-5">Lo último de mi diario</h2>
+        <article class="card h-100 flex-md-row overflow-hidden">
+          <!-- Texto -->
+          <div
+            class="card-body d-flex flex-column justify-content-center mt-4 mt-md-0 w-100 w-md-50"
+          >
+            <h4 class="fs-6 text-warning text-uppercase">
+              Reflexiones sobre el proceso creativo
+            </h4>
             <h3 class="fw-bold">El viaje de crear un guantelete de fuerza</h3>
             <p>
-              Documentando los desafíos y triunfos en la creación de mi guantelete
-              de fuerza mejorada.
+              Documentando los desafíos y triunfos en la creación de mi
+              guantelete de fuerza mejorada.
             </p>
-            <a href="diary.html#force-glove-journey" class="btn btn-warning">Leer más</a>
+            <a href="diary.html#force-glove-journey" class="btn btn-warning"
+              >Leer más</a
+            >
           </div>
-          <div class="col">
-            <img src="diary-force-glove.jpg"
-                 alt="Diario del guantelete de fuerza"
-                 class="img-fluid rounded" />
+          <!-- Imagen -->
+          <div class="w-100 w-md-50">
+            <img
+              src="https://picsum.photos/600/400"
+              alt="Imagen de la entrada"
+              class="img-fluid h-100 w-100 object-fit-cover"
+            />
           </div>
         </article>
       </section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer text-center p-4 bg-light mt-5">
-      <nav class="navbar justify-content-center" aria-label="Navegación secundaria">
+      <nav
+        class="navbar justify-content-center"
+        aria-label="Navegación secundaria"
+      >
         <ul class="nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link text-secondary" href="#">Inicio</a>
