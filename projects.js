@@ -1,12 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
   const projectModal = document.getElementById("projectModal");
   const projectContainer = document.getElementById("project-container");
+  const futureProjectContainer = document.getElementById("future-project-container");
   const urlParams = new URLSearchParams(window.location.search);
   const modalId = urlParams.get('modal');
   console.log(modalId);
   
   getData().then(data => {
     populateProjectCards(data, projectContainer);
+    populateFutureProjects(data, futureProjectContainer);
   });
 
   projectModal.addEventListener("show.bs.modal", function (event) {
@@ -101,5 +103,27 @@ const populateProjectCards = (data, projectContainer) => {
               </div>
             `;
     projectContainer.appendChild(card);
+  });
+};
+
+const populateFutureProjects = (data, container) => {
+  data.futureProjects.forEach((project) => {
+    const card = document.createElement("article");
+    card.className = "col";
+    card.innerHTML = `
+              <div 
+                class="text-decoration-none col"
+                data-bs-toggle="modal"
+                data-bs-target="#projectModal"
+                data-project-id="${project.id}"
+              >
+                <img src="${project.image}" class="card-img-top" alt="${project.title}" />
+                <div class="p-3">
+                  <h3 class="fs-4">${project.title}</h3>
+                  <p>${project.description}</p>
+                </div>
+              </div>
+            `;
+    container.appendChild(card);
   });
 };
