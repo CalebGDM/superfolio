@@ -12,6 +12,14 @@
     {"platform": "x", "url": "https://twitter.com/tu_usuario"},
     {"platform": "inbox", "url": "mailto:tu_email@example.com"}
   ],
+  "habilities": [
+    {"name": "Programación", "description": "Programación en Python y JavaScript", "image": "https://picsum.photos/200/200"},
+    {"name": "Diseño 3D", "description": "Diseño y modelado en 3D", "image": "https://picsum.photos/200/200"},
+    {"name": "Electrónica", "description": "Electrónica y robótica", "image": "https://picsum.photos/200/200"},
+    {"name": "Inteligencia Artificial", "description": "Machine Learning y Visión por Computadora", "image": "https://picsum.photos/200/200"},
+    {"name": "Realidad Aumentada", "description": "Experiencias interactivas con AR", "image": "https://picsum.photos/200/200"},
+    {"name": "Energías Renovables", "description": "Sistemas solares y eólicos", "image": "https://picsum.photos/200/200"}
+  ],
   "projects": [
     {
       "id": 1,
