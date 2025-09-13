@@ -1,8 +1,5 @@
 {
-  "siteInfo": {
-    "title": "El técnico - Caleb García De la Mora",
-    "copyright": "© 2024 Caleb García De la Mora \"El técnico\". Todos los derechos reservados."
-  },
+  
   "navigation": [
     {"text": "Inicio", "href": "index.html"},
     {"text": "Proyectos", "href": "projects.html"},
