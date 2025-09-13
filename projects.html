@@ -178,85 +178,8 @@
     ></script>
     <script src="menu.js"></script>
     <script src="projects_cards.js"></script>
-    <script>
-      // Script para manejar la visualización de detalles del proyecto en el modal
-      document.addEventListener('DOMContentLoaded', function() {
-        const projectModal = document.getElementById('projectModal');
-        
-        projectModal.addEventListener('show.bs.modal', function(event) {
-          const card = event.relatedTarget;
-          
-          // Obtener los datos del proyecto desde los atributos data
-          const title = card.getAttribute('data-project-title');
-          const description = card.getAttribute('data-project-description');
-          const image = card.getAttribute('data-project-image');
-          const tech = card.getAttribute('data-project-tech');
-          const date = card.getAttribute('data-project-date');
-          const status = card.getAttribute('data-project-status');
-          
-          // Actualizar el contenido del modal
-          document.getElementById('modalProjectTitle').textContent = title;
-          document.getElementById('modalProjectDescription').textContent = description;
-          document.getElementById('modalProjectImage').src = image;
-          document.getElementById('modalProjectDate').textContent = date;
-          document.getElementById('modalProjectStatus').textContent = status;
-          
-          // Actualizar tecnologías (convertir en badges)
-          const techContainer = document.getElementById('modalProjectTech');
-          techContainer.innerHTML = '';
-          tech.split(', ').forEach(technology => {
-            const badge = document.createElement('span');
-            badge.classList.add('badge', 'bg-primary', 'tech-badge');
-            badge.textContent = technology;
-            techContainer.appendChild(badge);
-          });
-          
-          // Generar características basadas en el título (esto es un ejemplo)
-          const featuresList = document.getElementById('modalProjectFeatures');
-          featuresList.innerHTML = '';
-          
-          // Características genéricas basadas en el tipo de proyecto
-          let features = [];
-          
-          if (title.toLowerCase().includes('guantelete')) {
-            features = [
-              'Amplificación de fuerza hasta 10x',
-              'Materiales ultraligeros y resistentes',
-              'Sistema de retroalimentación háptica',
-              'Batería de larga duración (8+ horas)'
-            ];
-          } else if (title.toLowerCase().includes('seguridad')) {
-            features = [
-              'Reconocimiento facial con 99.7% de precisión',
-              'Notificaciones en tiempo real',
-              'Modo nocturno con visión infrarroja',
-              'Almacenamiento en la nube cifrado'
-            ];
-          } else if (title.toLowerCase().includes('robótico')) {
-            features = [
-              '6 grados de libertad',
-              'Precisión de 0.1mm',
-              'Control por voz y aplicación móvil',
-              'Capacidad de carga de 2kg'
-            ];
-          } else {
-            // Características genéricas para otros proyectos
-            features = [
-              'Diseño innovador y funcional',
-              'Tecnología de vanguardia',
-              'Interfaz intuitiva y fácil de usar',
-              'Bajo consumo energético'
-            ];
-          }
-          
-          // Agregar características a la lista
-          features.forEach(feature => {
-            const li = document.createElement('li');
-            li.textContent = feature;
-            featuresList.appendChild(li);
-          });
-        });
-      });
+    <script src="project_modal.js">
+      
     </script>
   </body>
 </html>
