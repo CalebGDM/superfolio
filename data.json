@@ -6,8 +6,14 @@
   "navigation": [
     {"text": "Inicio", "href": "index.html"},
     {"text": "Proyectos", "href": "projects.html"},
-    {"text": "Diario", "href": "#"},
-    {"text": "Contacto", "href": "#"}
+    {"text": "Diario", "href": "diary.html"}
+
+  ],
+  "contacts": [
+    {"platform": "github", "url": "https://github.com/tu_usuario"},
+    {"platform": "linkedin", "url": "https://www.linkedin.com/in/tu_usuario"},
+    {"platform": "x", "url": "https://twitter.com/tu_usuario"},
+    {"platform": "inbox", "url": "mailto:tu_email@example.com"}
   ],
   "projects": [
     {
