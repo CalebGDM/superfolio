@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>El técnico - Caleb García De la mora</title>
+    <title>El técnico - Caleb García De la Mora</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,18 +13,16 @@
   </head>
   <body>
     <header>
-      <nav class="navbar justify-content-center p-4">
+      <nav class="navbar justify-content-center p-4" aria-label="Navegación principal">
         <ul class="nav justify-content-center">
-          <li class="nav-item text-secondary">
-            <a class="nav-link text-secondary" aria-current="page" href="#"
-              >Inicio</a
-            >
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-secondary" href="#">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Diraio</a>
+            <a class="nav-link text-secondary" href="#">Diario</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-secondary" href="#">Contacto</a>
@@ -32,177 +30,165 @@
         </ul>
       </nav>
     </header>
+
     <main>
-      <!--Inicio-->
-      <section class=" cal-sans-regular">
+      <!-- Inicio -->
+      <section class="cal-sans-regular">
         <div class="container mb-5">
           <div class="row">
             <div class="col">
-              <h1 class="text-uppercase fw-bold mb-2" style="font-size: 4.3em">
+              <h1 class="text-uppercase fw-bold mb-3" style="font-size: 4.3em">
                 Construyendo a los héroes del mañana,
-                <label class="text-primary">un invento a la vez</label>
+                <span class="text-primary">un invento a la vez</span>
               </h1>
               <p class="mb-4">
                 Soy "El técnico" (o por mi identidad secreta Caleb García). De
-                día, soy un estudiante universitario común. En la noche (o mi
-                tiempo libre), en mi cuarto, convierto la tecnología de
-                superhéroes en realidad. Bienvenidos al hueco del internet donde
-                comparto mi pasión por los inventos y la innovación heroica.
+                día, soy un estudiante universitario común. En la noche (o en mi
+                tiempo libre), convierto la tecnología de superhéroes en
+                realidad. Bienvenidos al rincón del internet donde comparto mi
+                pasión por los inventos y la innovación heroica.
               </p>
-              
-              <a href="projects.html" class="btn btn-warning " style="width: 45%;"
-                >Ver mis proyectos</a
-              >
-              <a href="diary.html" class="btn btn-outline-secondary"  style="width: 45%;"
-                >Lee mi diario de desarrollo</a
-              >
+
+              <div class="d-flex gap-3">
+                <a href="projects.html" class="btn btn-warning flex-fill">
+                  Ver mis proyectos
+                </a>
+                <a href="diary.html" class="btn btn-outline-secondary flex-fill">
+                  Lee mi diario de desarrollo
+                </a>
+              </div>
             </div>
-            <figure class="col">
-              <img src="hero-invention.jpg" alt="Invento de superhéroe" />
-            </figure>
+
+            <div class="col d-flex justify-content-center m-3 m-md-5">
+              <img src="https://picsum.photos/300/300"
+                   alt="Invento de superhéroe"
+                   class="img-fluid rounded" />
+            </div>
           </div>
         </div>
-      </section>
-      <!--Ultimos inventos-->
-      <section class="container justify-content-center text-center p-5">
-        <h2 class="mb-5 mt-5">Últimos inventos</h2>
-        <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-1 row-cols-xs-1 g-5 justify-content-between">
-          <article class="col card col-5 p-0">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark"
-            >
-              <img
-                src="https://picsum.photos/300/300"
-                class="card-img-top mb-3"
-                alt="Guantelete de fuerza mejorada"
-                width="auto"
-                height="300"
-              />
-              <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
-              <p>
-                Un guantelete que amplifica la fuerza del usuario, permitiéndole
-                levantar objetos pesados con facilidad.
-              </p>
-            </a>
-          </article>
-          <article class="col card col-5 p-0">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark"
-            >
-              <img
-                src="https://picsum.photos/300/300"
-                class="card-img-top mb-3"
-                alt="Guantelete de fuerza mejorada"
-                width="auto"
-                height="300"
-              />
-              <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
-              <p>
-                Un guantelete que amplifica la fuerza del usuario, permitiéndole
-                levantar objetos pesados con facilidad.
-              </p>
-            </a>
-          </article>
-          <article class="col card col-5 p-0">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark"
-            >
-              <img
-                src="https://picsum.photos/300/300"
-                class="card-img-top mb-3"
-                alt="Guantelete de fuerza mejorada"
-                width="auto"
-                height="300"
-              />
-              <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
-              <p>
-                Un guantelete que amplifica la fuerza del usuario, permitiéndole
-                levantar objetos pesados con facilidad.
-              </p>
-            </a>
-          </article>
-        </div>
-      </section>
-      <!--Habilidades-->
-      <section class="container justify-content-center text-center p-5">
-        <h2 class="mb-5 mt-5">Mis habilidades</h2>
-        <ul class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-1 row-cols-xs-1 g-5 justify-content-between mt-5">
-          <li style="list-style: none;"><img src="path/to/your/image.jpg" alt="Programación" class="img-fluid mb-3"><h3>Programación</h3>Programación en Python y JavaScript</li>
-          <li style="list-style: none;"><img src="path/to/your/image.jpg" alt="Diseño 3D" class="img-fluid mb-3"><h3>Diseño 3D</h3>Diseño 3D y modelado</li>
-          <li style="list-style: none;"><img src="path/to/your/image.jpg" alt="Electrónica" class="img-fluid mb-3"><h3>Electrónica</h3>Electrónica y robótica</li>
-        </ul>
-      </section>
-      <!--De mi diario-->
-      <section class="container justify-content-center text-center p-5">
-        <h2>Lo último de mi diario</h2>
-        <article class="card p-4 mt-5 text-start pt-5 row row-cols-3 justify-content-between">
-          <div class="col">
-            <h4 class="fs-5 text-warning text-uppercase mt-3">Reflexiones sobre el proceso creativo</h4>
-          <h3 class="fw-bold">El viaje de crear un guantelete de fuerza</h3>
-          <p>
-            Documentando los desafíos y triunfos en la creación de mi guantelete
-            de fuerza mejorada.
-          </p>
-          <a href="diary.html#force-glove-journey" class="btn btn-warning">Leer más</a>
-          </div>
-        
-            <img
-          class="img-fluid mt-3"
-            src="diary-force-glove.jpg"
-            alt="Diario del guantelete de fuerza"
-          />
-    
-          
-          
-        </article>
       </section>
 
-      <footer class="footer text-center p-4 bg-light mt-5">
-        <nav class="navbar justify-content-center">
-        <ul class="nav justify-content-center">
-          <li class="nav-item text-secondary">
-            <a class="nav-link text-secondary" aria-current="page" href="#"
-              >Inicio</a
-            >
+      <!-- Últimos inventos -->
+      <section class="container p-5">
+        <h2 class="mb-5 mt-5 text-center">Últimos inventos</h2>
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+          <article class="col">
+            <a href="projects.html#force-glove" class="text-decoration-none text-dark card h-100  ">
+              <img src="https://picsum.photos/300/300"
+                   class="card-img-top"
+                   alt="Guantelete de fuerza mejorada" />
+              <div class="p-3">
+                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
+                <p>
+                  Un guantelete que amplifica la fuerza del usuario, permitiéndole
+                  levantar objetos pesados con facilidad.
+                </p>
+              </div>
+            </a>
+          </article>
+
+          <article class="col">
+            <a href="projects.html#force-glove" class="text-decoration-none text-dark card h-100  ">
+              <img src="https://picsum.photos/300/300"
+                   class="card-img-top"
+                   alt="Guantelete de fuerza mejorada" />
+              <div class="p-3">
+                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
+                <p>
+                  Un guantelete que amplifica la fuerza del usuario, permitiéndole
+                  levantar objetos pesados con facilidad.
+                </p>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="projects.html#force-glove" class="text-decoration-none text-dark card h-100  ">
+              <img src="https://picsum.photos/300/300"
+                   class="card-img-top"
+                   alt="Guantelete de fuerza mejorada" />
+              <div class="p-3">
+                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
+                <p>
+                  Un guantelete que amplifica la fuerza del usuario, permitiéndole
+                  levantar objetos pesados con facilidad.
+                </p>
+              </div>
+            </a>
+          </article>
+          
+
+          
+          
+        </div>
+      </section>
+
+      <!-- Habilidades -->
+      <section class="container text-center p-5">
+        <h2 class="mb-5 mt-5">Mis habilidades</h2>
+        <ul class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-5 list-unstyled mt-5">
+          <li class="col">
+            <img src="path/to/your/image.jpg" alt="Programación" class="img-fluid mb-3">
+            <h3>Programación</h3>
+            <p>Python y JavaScript</p>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Proyectos</a>
+          <li class="col">
+            <img src="path/to/your/image.jpg" alt="Diseño 3D" class="img-fluid mb-3">
+            <h3>Diseño 3D</h3>
+            <p>Diseño y modelado en 3D</p>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Diraio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Contacto</a>
+          <li class="col">
+            <img src="path/to/your/image.jpg" alt="Electrónica" class="img-fluid mb-3">
+            <h3>Electrónica</h3>
+            <p>Electrónica y robótica</p>
           </li>
         </ul>
-      </nav>
-      <nav class="navbar justify-content-center">
-        <ul class="nav justify-content-center">
-          <li class="nav-item text-secondary">
-            <a class="nav-link text-secondary" aria-current="page" href="#"
-              >Inicio</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Diraio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-        <p>
-          &copy; 2024 Caleb García De la mora "El técnico". Todos los derechos
-          reservados.
-        </p>
-      </footer>
+      </section>
+
+      <!-- Diario -->
+      <section class="container text-center p-5">
+        <h2>Lo último de mi diario</h2>
+        <article class="card p-4 mt-5 text-start row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <h4 class="fs-6 text-warning text-uppercase">Reflexiones sobre el proceso creativo</h4>
+            <h3 class="fw-bold">El viaje de crear un guantelete de fuerza</h3>
+            <p>
+              Documentando los desafíos y triunfos en la creación de mi guantelete
+              de fuerza mejorada.
+            </p>
+            <a href="diary.html#force-glove-journey" class="btn btn-warning">Leer más</a>
+          </div>
+          <div class="col">
+            <img src="diary-force-glove.jpg"
+                 alt="Diario del guantelete de fuerza"
+                 class="img-fluid rounded" />
+          </div>
+        </article>
+      </section>
     </main>
+
+    <footer class="footer text-center p-4 bg-light mt-5">
+      <nav class="navbar justify-content-center" aria-label="Navegación secundaria">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Diario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="mt-3">
+        &copy; 2024 Caleb García De la Mora "El técnico". Todos los derechos
+        reservados.
+      </p>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
