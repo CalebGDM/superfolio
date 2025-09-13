@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   getData().then(data => {
     populateProjectsHome(data, projectHomeContainer);
     populateHabilities(data, habilitesContainer);
+    populateLastDiaryEntry(data.diaryEntries[data.diaryEntries.length - 1]);
   });
 
   
@@ -62,4 +63,29 @@ const populateHabilities = (data, container) => {
             <p>${hability.description}</p>`;
     container.appendChild(card);
   });
+};
+
+const populateLastDiaryEntry = (data) => {
+  const lastEntryContainer = document.getElementById("last-diary-entry");
+  
+  lastEntryContainer.innerHTML = `<div
+            class="card-body d-flex flex-column justify-content-center mt-4 mt-md-0 w-100 w-md-50"
+          >
+            <h4 class="fs-6 text-warning text-uppercase">
+             ${data.mood}
+            </h4>
+            <h3 class="fw-bold">${data.title}</h3>
+            <p>
+              ${data.content.slice(0, 150)}...
+            </p>
+            <a href="diary.html" class="btn btn-warning">Leer más</a>
+          </div>
+          <!-- Imagen -->
+          <div class="w-100 w-md-50">
+            <img
+              src="${data.image}"
+              alt="Imagen de la entrada"
+              class="img-fluid h-100 w-100 object-fit-cover"
+            />
+          </div>`;
 };

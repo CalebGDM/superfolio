@@ -118,36 +118,110 @@
       ]
     }
   ],
-  "futureProjects": [
+   "futureProjects": [
     {
-      "title": "Programación",
-      "description": "Python y JavaScript",
-      "image": "https://picsum.photos/200/200"
+      "title": "Asistente Doméstico con IA",
+      "description": "Sistema inteligente para automatización del hogar con control por voz y aprendizaje de hábitos",
+      "image": "https://picsum.photos/200/200",
+      "category": "Inteligencia Artificial",
+      "estimatedCompletion": "Q4 2024",
+      "technologies": ["Python", "TensorFlow", "IoT", "Node.js"]
     },
     {
-      "title": "Diseño 3D",
-      "description": "Diseño y modelado en 3D",
-      "image": "https://picsum.photos/200/200"
+      "title": "Exoesqueleto para rehabilitación",
+      "description": "Dispositivo mecánico para asistir en terapias de rehabilitación motora con seguimiento de progreso",
+      "image": "https://picsum.photos/200/200",
+      "category": "Robótica",
+      "estimatedCompletion": "Q1 2025",
+      "technologies": ["Arduino", "Sensores biométricos", "Impresión 3D", "Android"]
     },
     {
-      "title": "Electrónica",
-      "description": "Electrónica y robótica",
-      "image": "https://picsum.photos/200/200"
+      "title": "Sistema de cultivo hidropónico automatizado",
+      "description": "Instalación para cultivo interior con control automático de nutrientes, pH y ciclos de luz",
+      "image": "https://picsum.photos/200/200",
+      "category": "Automatización",
+      "estimatedCompletion": "Q3 2024",
+      "technologies": ["ESP32", "Sensores ambientales", "Python", "App móvil"]
     },
     {
-      "title": "Inteligencia Artificial",
-      "description": "Machine Learning y Visión por Computadora",
-      "image": "https://picsum.photos/200/200"
+      "title": "Traductor de lenguaje de señas",
+      "description": "Dispositivo portátil que traduce lenguaje de señas a voz y texto en tiempo real",
+      "image": "https://picsum.photos/200/200",
+      "category": "Visión por computadora",
+      "estimatedCompletion": "Q2 2025",
+      "technologies": ["Python", "OpenCV", "ML", "TensorFlow Lite"]
     },
     {
-      "title": "Realidad Aumentada",
-      "description": "Experiencias interactivas con AR",
-      "image": "https://picsum.photos/200/200"
+      "title": "Generador de energía piezoeléctrica",
+      "description": "Sistema para capturar energía cinética en pisos y convertirla en electricidad utilizable",
+      "image": "https://picsum.photos/200/200",
+      "category": "Energías alternativas",
+      "estimatedCompletion": "Q4 2024",
+      "technologies": ["Electrónica", "Arduino", "Almacenamiento energético", "PCB Design"]
     },
     {
-      "title": "Energías Renovables",
-      "description": "Sistemas solares y eólicos",
-      "image": "https://picsum.photos/200/200"
+      "title": "Estación meteorológica comunitaria",
+      "description": "Red de sensores distribuidos para monitoreo hiperlocal del clima con datos abiertos",
+      "image": "https://picsum.photos/200/200",
+      "category": "IoT",
+      "estimatedCompletion": "Q1 2025",
+      "technologies": ["LoRa", "ESP8266", "API REST", "Visualización de datos"]
+    }
+  ],
+  "diaryEntries": [
+    {
+      "id": 1,
+      "date": "2024-06-15",
+      "title": "Avances en el sistema de reconocimiento de gestos",
+      "content": "Hoy logré mejorar la precisión del algoritmo de reconocimiento de gestos hasta un 92%. El desafío principal sigue siendo la iluminación variable en entornos reales. Probé con filtros de normalización de luz que muestran resultados prometedores. Mañana comenzaré las pruebas con diferentes ángulos de cámara.",
+      "tags": ["Computer Vision", "Python", "Machine Learning"],
+      "mood": "Entusiasmado",
+      "image": "https://picsum.photos/600/400"
+    },
+    {
+      "id": 2,
+      "date": "2024-06-12",
+      "title": "Problemas con la fuente de alimentación del exoesqueleto",
+      "content": "El consumo energético del prototipo actual excede las expectativas. Las baterías de litio se descargan en apenas 45 minutos de uso continuo. Estoy evaluando alternativas: either optimizar el consumo o rediseñar el sistema de potencia. La opción de supercapacitores parece interesante pero requiere más investigación.",
+      "tags": ["Electrónica", "Energía", "Diseño"],
+      "mood": "Reflexivo",
+      "image": "https://picsum.photos/600/400"
+    },
+    {
+      "id": 3,
+      "date": "2024-06-08",
+      "title": "Primera conexión exitosa con la API del clima",
+      "content": "¡Finalmente! Después de tres días de debugging, logré que el microcontrolador se comunique consistentemente con el servicio de datos meteorológicos. El problema estaba en la gestión de memoria del JSON parser. Ahora puedo obtener datos cada 10 minutos sin pérdida de paquetes.",
+      "tags": ["IoT", "Programación", "APIs"],
+      "mood": " Satisfecho",  
+      "image": "https://picsum.photos/600/400"
+    },
+    {
+      "id": 4,
+      "date": "2024-06-03",
+      "title": "Inicio del proyecto de hidroponía automatizada",
+      "content": "Compré los primeros componentes para el sistema de cultivo. Los sensores de pH y EC llegaron hoy. Me sorprende la precisión de estos dispositivos de bajo costo. Planeo conectar todo con un Raspberry Pi y desarrollar una interfaz web para monitoreo remoto. Las lechugas serán mis primeras víctimas de prueba.",
+      "tags": ["Automatización", "Agricultura", "Python"],
+      "mood": "Optimista",
+      "image": "https://picsum.photos/600/400"
+    },
+    {
+      "id": 5,
+      "date": "2024-05-28",
+      "title": "Lecciones aprendidas del proyecto fallido de drones",
+      "content": "Después de dos meses de trabajo, debo aceptar que el sistema de navegación autónoma para drones no cumple con los requisitos de seguridad. Aunque el algoritmo de evitación de obstáculos funciona en interiores, en exteriores con viento los resultados son inconsistentes. Tal vez deba cambiar el enfoque o postergar este proyecto hasta tener mejores sensores.",
+      "tags": ["Robótica", "Fracaso", "Aprendizaje"],
+      "mood": "Frustrado pero aprendiendo",
+      "image": "https://picsum.photos/600/400"
+    },
+    {
+      "id": 6,
+      "date": "2024-05-20",
+      "title": "Inspiración en la conferencia de tecnologías asistivas",
+      "content": "Asistí hoy a una conferencia sobre tecnologías de asistencia y quedé maravillado con las innovaciones presentadas. Conocí a un ingeniero que desarrolló un dispositivo similar a lo que tengo en mente para el traductor de lenguaje de señas. Intercambiamos contactos y posiblemente colaboremos. A veces la comunidad es más abierta de lo que pensaba.",
+      "tags": ["Networking", "Inspiración", "Accesibilidad"],
+      "mood": "Inspirado",
+      "image": "https://picsum.photos/600/400"
     }
   ]
 }
