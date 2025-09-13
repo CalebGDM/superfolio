@@ -1,0 +1,142 @@
+{
+  "siteInfo": {
+    "title": "El técnico - Caleb García De la Mora",
+    "copyright": "© 2024 Caleb García De la Mora \"El técnico\". Todos los derechos reservados."
+  },
+  "navigation": [
+    {"text": "Inicio", "href": "index.html"},
+    {"text": "Proyectos", "href": "projects.html"},
+    {"text": "Diario", "href": "#"},
+    {"text": "Contacto", "href": "#"}
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Guantelete de Fuerza Mejorada",
+      "shortDescription": "Un guantelete que amplifica la fuerza del usuario, permitiéndole levantar objetos pesados con facilidad.",
+      "longDescription": "Un guantelete que amplifica la fuerza del usuario, permitiéndole levantar objetos pesados con facilidad. Desarrollado con materiales de alta resistencia y tecnología de amplificación de fuerza.",
+      "image": "https://picsum.photos/300/300",
+      "technologies": ["Electrónica", "Arduino", "Impresión 3D"],
+      "date": "Enero 2024",
+      "status": "Completado",
+      "features": [
+        "Amplificación de fuerza hasta 10x",
+        "Materiales ultraligeros y resistentes",
+        "Sistema de retroalimentación háptica",
+        "Batería de larga duración (8+ horas)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sistema de Seguridad Inteligente",
+      "shortDescription": "Sistema de seguridad con reconocimiento facial y notificaciones en tiempo real para protección del hogar.",
+      "longDescription": "Sistema de seguridad para el hogar con reconocimiento facial, sensores de movimiento y notificaciones en tiempo real. Incluye una aplicación móvil para monitoreo remoto.",
+      "image": "https://picsum.photos/300/300",
+      "technologies": ["Python", "OpenCV", "IoT", "Raspberry Pi"],
+      "date": "Marzo 2024",
+      "status": "En desarrollo",
+      "features": [
+        "Reconocimiento facial con 99.7% de precisión",
+        "Notificaciones en tiempo real",
+        "Modo nocturno con visión infrarroja",
+        "Almacenamiento en la nube cifrado"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Brazo Robótico Controlado por Voz",
+      "shortDescription": "Brazo robótico controlado mediante comandos de voz para manipulación precisa de objetos.",
+      "longDescription": "Brazo robótico de 6 grados de libertad controlado mediante comandos de voz. Capaz de manipular objetos delicados y realizar tareas repetitivas con precisión.",
+      "image": "https://picsum.photos/300/300",
+      "technologies": ["Python", "Arduino", "Reconocimiento de Voz", "Servomotores"],
+      "date": "Febrero 2024",
+      "status": "Completado",
+      "features": [
+        "6 grados de libertad",
+        "Precisión de 0.1mm",
+        "Control por voz y aplicación móvil",
+        "Capacidad de carga de 2kg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Sistema de Riego Automatizado",
+      "shortDescription": "Sistema inteligente de riego que optimiza el uso de agua según las condiciones ambientales.",
+      "longDescription": "Sistema de riego automatizado que utiliza sensores de humedad y predicciones meteorológicas para optimizar el consumo de agua en jardines y cultivos.",
+      "image": "https://picsum.photos/300/300",
+      "technologies": ["Arduino", "Sensores", "IoT", "App móvil"],
+      "date": "Abril 2024",
+      "status": "Completado",
+      "features": [
+        "Monitoreo de humedad en tiempo real",
+        "Integración con pronóstico del tiempo",
+        "Ahorro de hasta 40% en consumo de agua",
+        "Control remoto vía aplicación móvil"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Asistente Virtual para Taller",
+      "shortDescription": "Asistente de voz para gestionar inventario y guiar procesos de reparación en taller.",
+      "longDescription": "Sistema de asistencia por voz para talleres que ayuda en la gestión de inventario, sugiere procedimientos de reparación y mantiene registros de trabajos realizados.",
+      "image": "https://picsum.photos/300/300",
+      "technologies": ["Python", "Procesamiento de lenguaje natural", "Base de datos", "API"],
+      "date": "Mayo 2024",
+      "status": "En desarrollo",
+      "features": [
+        "Reconocimiento de voz en español",
+        "Base de datos de soluciones técnicas",
+        "Seguimiento de inventario automático",
+        "Generación de reportes automatizados"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Dron de Entrega Autónoma",
+      "shortDescription": "Prototipo de dron capaz de realizar entregas autónomas en un radio de 5km.",
+      "longDescription": "Dron autónomo diseñado para realizar entregas de paquetes pequeños con sistema de navegación GPS, evitación de obstáculos y aterrizaje de precisión.",
+      "image": "https://picsum.photos/300/300",
+      "technologies": ["Arduino", "GPS", "Sensores ultrasónicos", "Telemetría"],
+      "date": "Junio 2024",
+      "status": "En planeación",
+      "features": [
+        "Autonomía de vuelo de 30 minutos",
+        "Capacidad de carga de 1kg",
+        "Sistema de evitación de obstáculos",
+        "Aterrizaje de precisión con margen de error de 10cm"
+      ]
+    }
+  ],
+  "futureProjects": [
+    {
+      "title": "Programación",
+      "description": "Python y JavaScript",
+      "image": "https://picsum.photos/200/200"
+    },
+    {
+      "title": "Diseño 3D",
+      "description": "Diseño y modelado en 3D",
+      "image": "https://picsum.photos/200/200"
+    },
+    {
+      "title": "Electrónica",
+      "description": "Electrónica y robótica",
+      "image": "https://picsum.photos/200/200"
+    },
+    {
+      "title": "Inteligencia Artificial",
+      "description": "Machine Learning y Visión por Computadora",
+      "image": "https://picsum.photos/200/200"
+    },
+    {
+      "title": "Realidad Aumentada",
+      "description": "Experiencias interactivas con AR",
+      "image": "https://picsum.photos/200/200"
+    },
+    {
+      "title": "Energías Renovables",
+      "description": "Sistemas solares y eólicos",
+      "image": "https://picsum.photos/200/200"
+    }
+  ]
+}
