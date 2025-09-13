@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   const projectModal = document.getElementById("projectModal");
   const projectContainer = document.getElementById("project-container");
+  const urlParams = new URLSearchParams(window.location.search);
+  const modalId = urlParams.get('modal');
+  console.log(modalId);
   
   getData().then(data => {
     populateProjectCards(data, projectContainer);
@@ -17,6 +20,16 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+  if (modalId) {
+    const modal = new bootstrap.Modal(projectModal);
+    getData().then((data) => {
+      const project = data.projects.find((proj) => proj.id == modalId);
+      if (project) {
+        populateModal(project);
+        modal.show();
+      }
+    });
+  }
 });
 
 let cachedData = null;
