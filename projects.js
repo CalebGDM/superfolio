@@ -113,9 +113,7 @@ const populateFutureProjects = (data, container) => {
     card.innerHTML = `
               <div 
                 class="text-decoration-none col"
-                data-bs-toggle="modal"
-                data-bs-target="#projectModal"
-                data-project-id="${project.id}"
+               
               >
                 <img src="${project.image}" class="card-img-top" alt="${project.title}" />
                 <div class="p-3">
