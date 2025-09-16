@@ -7,18 +7,16 @@
 
   ],
   "contacts": [
-    {"platform": "github", "url": "https://github.com/tu_usuario"},
-    {"platform": "linkedin", "url": "https://www.linkedin.com/in/tu_usuario"},
-    {"platform": "x", "url": "https://twitter.com/tu_usuario"},
-    {"platform": "inbox", "url": "mailto:tu_email@example.com"}
+    {"platform": "github", "url": "https://github.com/CalebGDM"},
+    {"platform": "linkedin", "url": "https://www.linkedin.com/in/CalebGDM"},
+    {"platform": "x", "url": "https://twitter.com/CalebGDM"},
+    {"platform": "inbox", "url": "mailto:daikuweb@gmail.com"}
   ],
   "habilities": [
-    {"name": "Programación", "description": "Programación en Python y JavaScript", "image": "https://picsum.photos/200/200"},
-    {"name": "Diseño 3D", "description": "Diseño y modelado en 3D", "image": "https://picsum.photos/200/200"},
-    {"name": "Electrónica", "description": "Electrónica y robótica", "image": "https://picsum.photos/200/200"},
-    {"name": "Inteligencia Artificial", "description": "Machine Learning y Visión por Computadora", "image": "https://picsum.photos/200/200"},
-    {"name": "Realidad Aumentada", "description": "Experiencias interactivas con AR", "image": "https://picsum.photos/200/200"},
-    {"name": "Energías Renovables", "description": "Sistemas solares y eólicos", "image": "https://picsum.photos/200/200"}
+    {"name": "Programación", "description": "Programación en Python y JavaScript", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQKDkW6Irk6pvAXWLRa6jZe0RStRumZ74K3g&s"},
+    {"name": "Diseño 3D", "description": "Diseño y modelado en 3D", "image": "https://images.sftcdn.net/images/t_app-cover-s,f_auto/p/d352b064-9b23-11e6-b903-00163ec9f5fa/3663885543/freecad-1024px-Satnogs_Rotator_FreeCAD.jpg"},
+    {"name": "Electrónica", "description": "Electrónica y robótica", "image": "https://preview.redd.it/g25qmahrxju51.jpg?width=640&crop=smart&auto=webp&s=0c7a9782e5b209745db501fdd06fd689a5a5278e"}
+    
   ],
   "projects": [
     {
@@ -26,7 +24,7 @@
       "title": "Guantelete de Fuerza Mejorada",
       "shortDescription": "Un guantelete que amplifica la fuerza del usuario, permitiéndole levantar objetos pesados con facilidad.",
       "longDescription": "Un guantelete que amplifica la fuerza del usuario, permitiéndole levantar objetos pesados con facilidad. Desarrollado con materiales de alta resistencia y tecnología de amplificación de fuerza.",
-      "image": "https://picsum.photos/300/300",
+      "image": "https://m.media-amazon.com/images/I/614QtG+Q8UL.jpg",
       "technologies": ["Electrónica", "Arduino", "Impresión 3D"],
       "date": "Enero 2024",
       "status": "Completado",
@@ -42,7 +40,7 @@
       "title": "Sistema de Seguridad Inteligente",
       "shortDescription": "Sistema de seguridad con reconocimiento facial y notificaciones en tiempo real para protección del hogar.",
       "longDescription": "Sistema de seguridad para el hogar con reconocimiento facial, sensores de movimiento y notificaciones en tiempo real. Incluye una aplicación móvil para monitoreo remoto.",
-      "image": "https://picsum.photos/300/300",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgyxndKO6EC7IDHPAKdcTNNLAIKznkY3XMEA&s",
       "technologies": ["Python", "OpenCV", "IoT", "Raspberry Pi"],
       "date": "Marzo 2024",
       "status": "En desarrollo",
@@ -58,7 +56,7 @@
       "title": "Brazo Robótico Controlado por Voz",
       "shortDescription": "Brazo robótico controlado mediante comandos de voz para manipulación precisa de objetos.",
       "longDescription": "Brazo robótico de 6 grados de libertad controlado mediante comandos de voz. Capaz de manipular objetos delicados y realizar tareas repetitivas con precisión.",
-      "image": "https://picsum.photos/300/300",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4665878c65154278a69636157782f3602.jpg",
       "technologies": ["Python", "Arduino", "Reconocimiento de Voz", "Servomotores"],
       "date": "Febrero 2024",
       "status": "Completado",
@@ -74,7 +72,7 @@
       "title": "Sistema de Riego Automatizado",
       "shortDescription": "Sistema inteligente de riego que optimiza el uso de agua según las condiciones ambientales.",
       "longDescription": "Sistema de riego automatizado que utiliza sensores de humedad y predicciones meteorológicas para optimizar el consumo de agua en jardines y cultivos.",
-      "image": "https://picsum.photos/300/300",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRveiuz0PWTtg5FoTg8qFczAQxR1ixu6kuVug&s",
       "technologies": ["Arduino", "Sensores", "IoT", "App móvil"],
       "date": "Abril 2024",
       "status": "Completado",
@@ -90,7 +88,7 @@
       "title": "Asistente Virtual para Taller",
       "shortDescription": "Asistente de voz para gestionar inventario y guiar procesos de reparación en taller.",
       "longDescription": "Sistema de asistencia por voz para talleres que ayuda en la gestión de inventario, sugiere procedimientos de reparación y mantiene registros de trabajos realizados.",
-      "image": "https://picsum.photos/300/300",
+      "image": "https://wallpapers.com/images/hd/jarvis-4k-in-blue-green-bh1sxo2nn18kx8e2.jpg",
       "technologies": ["Python", "Procesamiento de lenguaje natural", "Base de datos", "API"],
       "date": "Mayo 2024",
       "status": "En desarrollo",
@@ -106,7 +104,7 @@
       "title": "Dron de Entrega Autónoma",
       "shortDescription": "Prototipo de dron capaz de realizar entregas autónomas en un radio de 5km.",
       "longDescription": "Dron autónomo diseñado para realizar entregas de paquetes pequeños con sistema de navegación GPS, evitación de obstáculos y aterrizaje de precisión.",
-      "image": "https://picsum.photos/300/300",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOtjuErfHZYguRLE160B8CeOTKNeH5uh8dhw&s",
       "technologies": ["Arduino", "GPS", "Sensores ultrasónicos", "Telemetría"],
       "date": "Junio 2024",
       "status": "En planeación",
@@ -122,7 +120,7 @@
     {
       "title": "Asistente Doméstico con IA",
       "description": "Sistema inteligente para automatización del hogar con control por voz y aprendizaje de hábitos",
-      "image": "https://picsum.photos/200/200",
+      "image": "https://wallpapers.com/images/hd/jarvis-4k-in-blue-green-bh1sxo2nn18kx8e2.jpg",
       "category": "Inteligencia Artificial",
       "estimatedCompletion": "Q4 2024",
       "technologies": ["Python", "TensorFlow", "IoT", "Node.js"]
@@ -130,7 +128,7 @@
     {
       "title": "Exoesqueleto para rehabilitación",
       "description": "Dispositivo mecánico para asistir en terapias de rehabilitación motora con seguimiento de progreso",
-      "image": "https://picsum.photos/200/200",
+      "image": "https://www.ladobe.com.mx/wp-content/uploads/2016/12/exoesqueleto-elegs.jpg",
       "category": "Robótica",
       "estimatedCompletion": "Q1 2025",
       "technologies": ["Arduino", "Sensores biométricos", "Impresión 3D", "Android"]
@@ -138,7 +136,7 @@
     {
       "title": "Sistema de cultivo hidropónico automatizado",
       "description": "Instalación para cultivo interior con control automático de nutrientes, pH y ciclos de luz",
-      "image": "https://picsum.photos/200/200",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShfhQmS-ipjPICnRsJLbsEnfQJDAQzGVW-Xw&s",
       "category": "Automatización",
       "estimatedCompletion": "Q3 2024",
       "technologies": ["ESP32", "Sensores ambientales", "Python", "App móvil"]
@@ -146,7 +144,7 @@
     {
       "title": "Traductor de lenguaje de señas",
       "description": "Dispositivo portátil que traduce lenguaje de señas a voz y texto en tiempo real",
-      "image": "https://picsum.photos/200/200",
+      "image": "https://i.blogs.es/f9d992/i-1-90522693-these-ingenious-gloves-let-you-hear-sign-language.jpg/650_1200.png",
       "category": "Visión por computadora",
       "estimatedCompletion": "Q2 2025",
       "technologies": ["Python", "OpenCV", "ML", "TensorFlow Lite"]
@@ -154,7 +152,7 @@
     {
       "title": "Generador de energía piezoeléctrica",
       "description": "Sistema para capturar energía cinética en pisos y convertirla en electricidad utilizable",
-      "image": "https://picsum.photos/200/200",
+      "image": "https://www.bjultrasonic.com/wp-content/uploads/2022/06/hydrophone-piezo.jpg",
       "category": "Energías alternativas",
       "estimatedCompletion": "Q4 2024",
       "technologies": ["Electrónica", "Arduino", "Almacenamiento energético", "PCB Design"]
@@ -162,7 +160,7 @@
     {
       "title": "Estación meteorológica comunitaria",
       "description": "Red de sensores distribuidos para monitoreo hiperlocal del clima con datos abiertos",
-      "image": "https://picsum.photos/200/200",
+      "image": "https://otroblogdemarcelo.wordpress.com/wp-content/uploads/2021/09/2021-09-19-16.27.02.jpg?w=1024",
       "category": "IoT",
       "estimatedCompletion": "Q1 2025",
       "technologies": ["LoRa", "ESP8266", "API REST", "Visualización de datos"]
@@ -176,7 +174,7 @@
       "content": "Hoy logré mejorar la precisión del algoritmo de reconocimiento de gestos hasta un 92%. El desafío principal sigue siendo la iluminación variable en entornos reales. Probé con filtros de normalización de luz que muestran resultados prometedores. Mañana comenzaré las pruebas con diferentes ángulos de cámara.",
       "tags": ["Computer Vision", "Python", "Machine Learning"],
       "mood": "Entusiasmado",
-      "image": "https://picsum.photos/600/400"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1qs6OKxBHJR0BVxVe2V8HZz_S2uDdXGFazQ&s"
     },
     {
       "id": 2,
@@ -185,7 +183,7 @@
       "content": "El consumo energético del prototipo actual excede las expectativas. Las baterías de litio se descargan en apenas 45 minutos de uso continuo. Estoy evaluando alternativas: either optimizar el consumo o rediseñar el sistema de potencia. La opción de supercapacitores parece interesante pero requiere más investigación.",
       "tags": ["Electrónica", "Energía", "Diseño"],
       "mood": "Reflexivo",
-      "image": "https://picsum.photos/600/400"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1qs6OKxBHJR0BVxVe2V8HZz_S2uDdXGFazQ&s"
     },
     {
       "id": 3,
@@ -194,7 +192,7 @@
       "content": "¡Finalmente! Después de tres días de debugging, logré que el microcontrolador se comunique consistentemente con el servicio de datos meteorológicos. El problema estaba en la gestión de memoria del JSON parser. Ahora puedo obtener datos cada 10 minutos sin pérdida de paquetes.",
       "tags": ["IoT", "Programación", "APIs"],
       "mood": " Satisfecho",  
-      "image": "https://picsum.photos/600/400"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUWCXN4mNWdRsT0OrN2msUUGvdIFW4ZZfnZw&s"
     },
     {
       "id": 4,
@@ -203,7 +201,7 @@
       "content": "Compré los primeros componentes para el sistema de cultivo. Los sensores de pH y EC llegaron hoy. Me sorprende la precisión de estos dispositivos de bajo costo. Planeo conectar todo con un Raspberry Pi y desarrollar una interfaz web para monitoreo remoto. Las lechugas serán mis primeras víctimas de prueba.",
       "tags": ["Automatización", "Agricultura", "Python"],
       "mood": "Optimista",
-      "image": "https://picsum.photos/600/400"
+      "image": "https://agrotechcampus.com/wp-content/uploads/2025/03/Que-es-la-hidroponia-y-como-funciona.jpg"
     },
     {
       "id": 5,
@@ -212,7 +210,7 @@
       "content": "Después de dos meses de trabajo, debo aceptar que el sistema de navegación autónoma para drones no cumple con los requisitos de seguridad. Aunque el algoritmo de evitación de obstáculos funciona en interiores, en exteriores con viento los resultados son inconsistentes. Tal vez deba cambiar el enfoque o postergar este proyecto hasta tener mejores sensores.",
       "tags": ["Robótica", "Fracaso", "Aprendizaje"],
       "mood": "Frustrado pero aprendiendo",
-      "image": "https://picsum.photos/600/400"
+      "image": "https://static.vecteezy.com/system/resources/previews/019/154/720/non_2x/aerial-digital-gps-failed-drone-beware-accident-fall-crash-problem-insurance-concept-illustration-isometric-isolated-vector.jpg"
     },
     {
       "id": 6,
@@ -221,7 +219,7 @@
       "content": "Asistí hoy a una conferencia sobre tecnologías de asistencia y quedé maravillado con las innovaciones presentadas. Conocí a un ingeniero que desarrolló un dispositivo similar a lo que tengo en mente para el traductor de lenguaje de señas. Intercambiamos contactos y posiblemente colaboremos. A veces la comunidad es más abierta de lo que pensaba.",
       "tags": ["Networking", "Inspiración", "Accesibilidad"],
       "mood": "Inspirado",
-      "image": "https://picsum.photos/600/400"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm_--A7QD7fNfIY_bJt0MxQ1WEBuHLNE_aZw&s"
     }
   ]
 }
