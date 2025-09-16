@@ -19,30 +19,17 @@
         class="navbar justify-content-center p-4"
         aria-label="Navegación principal"
       >
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="projects.html">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Diario</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Contacto</a>
-          </li>
-        </ul>
+        <ul class="nav justify-content-center menu"></ul>
       </nav>
     </header>
 
     <main>
       <!-- Inicio -->
       <section class="cal-sans-regular">
-        <div class="container mb-5 mt-5">
+        <div class="container ">
           <div class="row align-items-center">
             <!-- Texto -->
-            <div class="col-md-6 mt-5 mb-5">
+            <div class="col-md-6 mb-5">
               <h1 class="text-uppercase fw-bold mb-3" style="font-size: 2.5rem">
                 Construyendo a los héroes del mañana,
                 <span class="text-primary">un invento a la vez</span>
@@ -69,9 +56,9 @@
             </div>
 
             <!-- Imagen -->
-            <div class="col-md-6 d-flex justify-content-center mt-4 mt-md-0">
+            <div class="col-md-6 d-flex justify-content-center mt-md-0">
               <img
-                src="https://picsum.photos/500/500"
+                src="https://i.ibb.co/7ddHhwq5/superyo.jpg"
                 alt="Invento de superhéroe"
                 class="img-fluid rounded hero-img"
               />
@@ -83,131 +70,26 @@
       <!-- Últimos inventos -->
       <section class="container p-5">
         <h2 class="mb-5 text-center">Últimos inventos</h2>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <article class="col">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark card h-100"
-            >
-              <img
-                src="https://picsum.photos/300/300"
-                class="card-img-top"
-                alt="Guantelete de fuerza mejorada"
-              />
-              <div class="p-3">
-                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
-                <p>
-                  Un guantelete que amplifica la fuerza del usuario,
-                  permitiéndole levantar objetos pesados con facilidad.
-                </p>
-              </div>
-            </a>
-          </article>
-
-          <article class="col">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark card h-100"
-            >
-              <img
-                src="https://picsum.photos/300/300"
-                class="card-img-top"
-                alt="Guantelete de fuerza mejorada"
-              />
-              <div class="p-3">
-                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
-                <p>
-                  Un guantelete que amplifica la fuerza del usuario,
-                  permitiéndole levantar objetos pesados con facilidad.
-                </p>
-              </div>
-            </a>
-          </article>
-
-          <article class="col">
-            <a
-              href="projects.html#force-glove"
-              class="text-decoration-none text-dark card h-100"
-            >
-              <img
-                src="https://picsum.photos/300/300"
-                class="card-img-top"
-                alt="Guantelete de fuerza mejorada"
-              />
-              <div class="p-3">
-                <h3 class="fs-4">Guantelete de Fuerza Mejorada</h3>
-                <p>
-                  Un guantelete que amplifica la fuerza del usuario,
-                  permitiéndole levantar objetos pesados con facilidad.
-                </p>
-              </div>
-            </a>
-          </article>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="project-home-container">
+          
         </div>
       </section>
 
       <!-- Habilidades -->
       <section class="container text-center p-5">
         <h2 class="mb-5">Mis habilidades</h2>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
-          <div class="col">
-            <img
-              src="https://picsum.photos/200/200"
-              alt="Programación"
-              class="img-fluid mb-3"
-            />
-            <h3>Programación</h3>
-            <p>Python y JavaScript</p>
-          </div>
-          <div class="col">
-            <img
-              src="https://picsum.photos/200/200"
-              alt="Diseño 3D"
-              class="img-fluid mb-3"
-            />
-            <h3>Diseño 3D</h3>
-            <p>Diseño y modelado en 3D</p>
-          </div>
-          <div class="col">
-            <img
-              src="https://picsum.photos/200/200"
-              alt="Electrónica"
-              class="img-fluid mb-3"
-            />
-            <h3>Electrónica</h3>
-            <p>Electrónica y robótica</p>
-          </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5" id="habilites-container">
+          
+          
         </div>
       </section>
 
       <!-- Diario -->
       <section class="container p-5">
         <h2 class="text-center mb-5">Lo último de mi diario</h2>
-        <article class="card h-100 flex-md-row overflow-hidden">
+        <article class="card h-100 flex-md-row overflow-hidden" id="last-diary-entry">
           <!-- Texto -->
-          <div
-            class="card-body d-flex flex-column justify-content-center mt-4 mt-md-0 w-100 w-md-50"
-          >
-            <h4 class="fs-6 text-warning text-uppercase">
-              Reflexiones sobre el proceso creativo
-            </h4>
-            <h3 class="fw-bold">El viaje de crear un guantelete de fuerza</h3>
-            <p>
-              Documentando los desafíos y triunfos en la creación de mi
-              guantelete de fuerza mejorada.
-            </p>
-            <a href="diary.html#force-glove-journey" class="btn btn-warning"
-              >Leer más</a
-            >
-          </div>
-          <!-- Imagen -->
-          <div class="w-100 w-md-50">
-            <img
-              src="https://picsum.photos/600/400"
-              alt="Imagen de la entrada"
-              class="img-fluid h-100 w-100 object-fit-cover"
-            />
-          </div>
+          
         </article>
       </section>
     </main>
@@ -218,23 +100,16 @@
         class="navbar justify-content-center"
         aria-label="Navegación secundaria"
       >
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Diario</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Contacto</a>
-          </li>
-        </ul>
+        <ul class="nav justify-content-center menu"></ul>
+      </nav>
+      <nav
+        class="navbar justify-content-center"
+        aria-label="Navegación secundaria"
+      >
+        <ul class="nav justify-content-center" id="contact"></ul>
       </nav>
       <p class="mt-3">
-        &copy; 2024 Caleb García De la Mora "El técnico". Todos los derechos
+        &copy; 2025 Caleb García De la Mora "El técnico". Todos los derechos
         reservados.
       </p>
     </footer>
@@ -244,5 +119,11 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/50a199dd15.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="menu.js"></script>
+    <script src="home.js"></script>
   </body>
 </html>
